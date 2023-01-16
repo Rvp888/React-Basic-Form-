@@ -55,7 +55,7 @@ function App() {
           <input type="password" value={password} required onChange={ (e) => {handlePasswordChange(e)} } /><br/><br/>
           <label>Confirm Password:</label><br/>
           <input type="password" value={confPassword} required onChange={ (e) => {handleConfPasswordChange(e)} } /><br/><br/>
-          <input type="submit" value="Submit"/>
+          <input type="submit" value="Submit" id="submit-btn"/>
         </form>
       </header>
     </div>
