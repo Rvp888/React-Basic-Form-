@@ -36,6 +36,7 @@ function App() {
     }
     else {
       alert(`A form was submitted with Name:"` + name +`", Age:"` + age +`" and Email:"` + email + `"`);
+      setName(""); setAge(""); setEmail(""); setPassword(""); setConfPassword("");
     }
     e.preventDefault();
   }
